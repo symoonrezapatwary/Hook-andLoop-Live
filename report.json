@@ -1,0 +1,1262 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/munna/Desktop/hookandloopLive/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/munna/Desktop/hookandloopLive",
+        "testIgnore": [],
+        "testMatch": [
+          "AutomationEx.test.ts"
+        ],
+        "timeout": 400000
+      }
+    ],
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "C:\\Users\\munna\\Desktop\\hookandloopLive\\playwright.config.ts",
+    "rootDir": "C:/Users/munna/Desktop/hookandloopLive",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.29.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\Automation Exercise\\AutomationEx.test.ts",
+      "file": "tests/Automation Exercise/AutomationEx.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "001 | Verify The DuraGrip Brand's Sew on products chcekout functionalities are working fine",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 400000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 216094,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "in wait!!!\n"
+                    },
+                    {
+                      "text": "jQuery is loaded and ready to use.\n"
+                    },
+                    {
+                      "text": "domcontentloaded!!!\n"
+                    },
+                    {
+                      "text": "in wait!!!\n"
+                    },
+                    {
+                      "text": "jQuery is loaded and ready to use.\n"
+                    },
+                    {
+                      "text": "domcontentloaded!!!\n"
+                    },
+                    {
+                      "text": "in wait!!!\n"
+                    },
+                    {
+                      "text": "jQuery is loaded and ready to use.\n"
+                    },
+                    {
+                      "text": "domcontentloaded!!!\n"
+                    },
+                    {
+                      "text": "Valid URL\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigate to the Url",
+                      "duration": 2544
+                    },
+                    {
+                      "title": "Click on the brands from the nav bar",
+                      "duration": 511
+                    },
+                    {
+                      "title": "Click on the DuraGrip Sew On product",
+                      "duration": 28565
+                    },
+                    {
+                      "title": "Click on the Width option of the product",
+                      "duration": 5438
+                    },
+                    {
+                      "title": "Click on the color option of the product",
+                      "duration": 6169
+                    },
+                    {
+                      "title": "Click on the Both(Hook&Loop) option of the product",
+                      "duration": 3103
+                    },
+                    {
+                      "title": "Click on the Add to cart button",
+                      "duration": 3462
+                    },
+                    {
+                      "title": "Click on the Checkout button",
+                      "duration": 9973
+                    },
+                    {
+                      "title": "Fill the email input field",
+                      "duration": 19443
+                    },
+                    {
+                      "title": "Fill the First Name input field",
+                      "duration": 9190
+                    },
+                    {
+                      "title": "Fill the Last Name input field",
+                      "duration": 9201
+                    },
+                    {
+                      "title": "Fill the Address input field",
+                      "duration": 9183
+                    },
+                    {
+                      "title": "Select the Country",
+                      "duration": 3058
+                    },
+                    {
+                      "title": "Select the state",
+                      "duration": 3027
+                    },
+                    {
+                      "title": "Fill the city input field",
+                      "duration": 12217
+                    },
+                    {
+                      "title": "Fill the Zip input field",
+                      "duration": 12228
+                    },
+                    {
+                      "title": "Fill the phone input field",
+                      "duration": 12215
+                    },
+                    {
+                      "title": "Priority Mall Click",
+                      "duration": 12756
+                    },
+                    {
+                      "title": "Next Button Click",
+                      "duration": 12257
+                    },
+                    {
+                      "title": "Net 30 selection",
+                      "duration": 11886
+                    },
+                    {
+                      "title": "Order Number Input",
+                      "duration": 66
+                    },
+                    {
+                      "title": "Commnet Input",
+                      "duration": 6087
+                    },
+                    {
+                      "title": "Click on the place order button",
+                      "duration": 14030
+                    },
+                    {
+                      "title": "Validate the order has been placed successfully",
+                      "duration": 9019
+                    }
+                  ],
+                  "startTime": "2024-05-29T09:43:18.531Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-001-Ver-3a32c-ducts-chcekout-functionalities-are-working-fine-chromium\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-001-Ver-3a32c-ducts-chcekout-functionalities-are-working-fine-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3b24793047643fa43483-8ce3d9aaee33750e78d9",
+          "file": "tests/Automation Exercise/AutomationEx.test.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "002 | Verify The velcro Brand's Sew on products chcekout functionalities are working fine",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 400000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 73654,
+                  "error": {
+                    "message": "Unable to find the Velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[1]')\n  locator resolved to visible <span>Sew On</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================",
+                    "stack": "Error: Unable to find the Velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[1]')\n  locator resolved to visible <span>Sew On</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n    at AutomationEXPage.velcroSewonClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:627:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:163:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:162:9"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 15,
+                        "line": 627
+                      },
+                      "message": "Error: Unable to find the Velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[1]')\n  locator resolved to visible <span>Sew On</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:627\n\n\u001b[0m \u001b[90m 625 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 626 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 627 |\u001b[39m         \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the Velcro sew on Element from the checkout |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 628 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 629 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 630 |\u001b[39m \u001b[36masync\u001b[39m velcroSewoncolorClick() {\u001b[0m\n\n\u001b[2m    at AutomationEXPage.velcroSewonClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:627:15)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:163:13\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:162:9\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigate to the Url",
+                      "duration": 2475
+                    },
+                    {
+                      "title": "Click on the brands from the nav bar",
+                      "duration": 490
+                    },
+                    {
+                      "title": "Click on the DuraGrip Sew On product",
+                      "duration": 69053,
+                      "error": {
+                        "message": "Unable to find the Velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[1]')\n  locator resolved to visible <span>Sew On</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================",
+                        "stack": "Error: Unable to find the Velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[1]')\n  locator resolved to visible <span>Sew On</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n    at AutomationEXPage.velcroSewonClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:627:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:163:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:162:9"
+                      }
+                    }
+                  ],
+                  "startTime": "2024-05-29T09:46:55.011Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-002-Ver-2e222-ducts-chcekout-functionalities-are-working-fine-chromium\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-002-Ver-2e222-ducts-chcekout-functionalities-are-working-fine-chromium\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                    "column": 15,
+                    "line": 627
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3b24793047643fa43483-f63e6aaf4097dd26d974",
+          "file": "tests/Automation Exercise/AutomationEx.test.ts",
+          "line": 153,
+          "column": 5
+        },
+        {
+          "title": "003 | Verify The duragrip Brand's peal and steal products chcekout functionalities are working fine",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 400000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 164507,
+                  "error": {
+                    "message": "Unable to find the Add To Checkout Button Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Checkout\\']')\n============================================================",
+                    "stack": "Error: Unable to find the Add To Checkout Button Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Checkout\\']')\n============================================================\n    at AutomationEXPage.ChkOutBTN_click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:238:19)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:333:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:331:9"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 19,
+                        "line": 238
+                      },
+                      "message": "Error: Unable to find the Add To Checkout Button Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Checkout\\']')\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:238\n\n\u001b[0m \u001b[90m 236 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 237 |\u001b[39m         } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 238 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the Add To Checkout Button Element from the PDP |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 239 |\u001b[39m         }\u001b[0m\n\u001b[0m \u001b[90m 240 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 241 |\u001b[39m     \u001b[36masync\u001b[39m gotoshopping_click() {\u001b[0m\n\n\u001b[2m    at AutomationEXPage.ChkOutBTN_click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:238:19)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:333:13\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:331:9\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "in wait!!!\n"
+                    },
+                    {
+                      "text": "jQuery is loaded and ready to use.\n"
+                    },
+                    {
+                      "text": "domcontentloaded!!!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigate to the Url",
+                      "duration": 4868
+                    },
+                    {
+                      "title": "Click on the brands from the nav bar",
+                      "duration": 517
+                    },
+                    {
+                      "title": "Click on the DuraGrip Sew On product",
+                      "duration": 43148
+                    },
+                    {
+                      "title": "Click on the Width option of the product",
+                      "duration": 3314
+                    },
+                    {
+                      "title": "Click on the color option of the product",
+                      "duration": 15202
+                    },
+                    {
+                      "title": "Click on the Both(Hook&Loop) option of the product",
+                      "duration": 27448
+                    },
+                    {
+                      "title": "Click on the Add to cart button",
+                      "duration": 3522
+                    },
+                    {
+                      "title": "Click on the Checkout button",
+                      "duration": 66019,
+                      "error": {
+                        "message": "Unable to find the Add To Checkout Button Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Checkout\\']')\n============================================================",
+                        "stack": "Error: Unable to find the Add To Checkout Button Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Checkout\\']')\n============================================================\n    at AutomationEXPage.ChkOutBTN_click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:238:19)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:333:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:331:9"
+                      }
+                    }
+                  ],
+                  "startTime": "2024-05-29T09:48:09.376Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-003-Ver-11579-ducts-chcekout-functionalities-are-working-fine-chromium\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-003-Ver-11579-ducts-chcekout-functionalities-are-working-fine-chromium\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                    "column": 19,
+                    "line": 238
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3b24793047643fa43483-54e1dee04a66ffc386e3",
+          "file": "tests/Automation Exercise/AutomationEx.test.ts",
+          "line": 295,
+          "column": 9
+        },
+        {
+          "title": "004 | Verify The velcro Brand's peal and stick products chcekout functionalities are working fine",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 400000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "failed",
+                  "duration": 74994,
+                  "error": {
+                    "message": "Unable to find the Velcro peal and stick Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[2]')\n  locator resolved to visible <span>Peel & Stick</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================",
+                    "stack": "Error: Unable to find the Velcro peal and stick Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[2]')\n  locator resolved to visible <span>Peel & Stick</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n    at AutomationEXPage.VelcropealClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:717:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:453:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:452:9"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 15,
+                        "line": 717
+                      },
+                      "message": "Error: Unable to find the Velcro peal and stick Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[2]')\n  locator resolved to visible <span>Peel & Stick</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:717\n\n\u001b[0m \u001b[90m 715 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 716 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 717 |\u001b[39m         \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the Velcro peal and stick Element from the checkout |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 718 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 719 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 720 |\u001b[39m \u001b[36masync\u001b[39m fourinchClick() {\u001b[0m\n\n\u001b[2m    at AutomationEXPage.VelcropealClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:717:15)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:453:13\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:452:9\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigate to the Url",
+                      "duration": 2458
+                    },
+                    {
+                      "title": "Click on the brands from the nav bar",
+                      "duration": 885
+                    },
+                    {
+                      "title": "Click on the DuraGrip Sew On product",
+                      "duration": 69062,
+                      "error": {
+                        "message": "Unable to find the Velcro peal and stick Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[2]')\n  locator resolved to visible <span>Peel & Stick</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================",
+                        "stack": "Error: Unable to find the Velcro peal and stick Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//dd[@class=\\'velcro even\\']//span)[2]')\n  locator resolved to visible <span>Peel & Stick</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n    at AutomationEXPage.VelcropealClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:717:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:453:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:452:9"
+                      }
+                    }
+                  ],
+                  "startTime": "2024-05-29T09:50:55.081Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-004-Ver-87e49-ducts-chcekout-functionalities-are-working-fine-chromium\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-004-Ver-87e49-ducts-chcekout-functionalities-are-working-fine-chromium\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                    "column": 15,
+                    "line": 717
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3b24793047643fa43483-4a680d5f22b01838858b",
+          "file": "tests/Automation Exercise/AutomationEx.test.ts",
+          "line": 443,
+          "column": 9
+        },
+        {
+          "title": "005 | Verify The duragrip Brand's coins products chcekout functionalities are working fine",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 400000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "failed",
+                  "duration": 77617,
+                  "error": {
+                    "message": "Unable to find the coins Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//span[text()=\\'Coins\\'])[3]')\n  locator resolved to visible <span>Coins</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================",
+                    "stack": "Error: Unable to find the coins Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//span[text()=\\'Coins\\'])[3]')\n  locator resolved to visible <span>Coins</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n    at AutomationEXPage.coinsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:747:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:602:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:601:9"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 15,
+                        "line": 747
+                      },
+                      "message": "Error: Unable to find the coins Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//span[text()=\\'Coins\\'])[3]')\n  locator resolved to visible <span>Coins</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:747\n\n\u001b[0m \u001b[90m 745 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 746 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 747 |\u001b[39m         \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the coins Element from the checkout |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 748 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 749 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 750 |\u001b[39m \u001b[36masync\u001b[39m coinswidthClick() {\u001b[0m\n\n\u001b[2m    at AutomationEXPage.coinsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:747:15)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:602:13\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:601:9\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigate to the Url",
+                      "duration": 4777
+                    },
+                    {
+                      "title": "Click on the brands from the nav bar",
+                      "duration": 542
+                    },
+                    {
+                      "title": "Click on the DuraGrip Sew On product",
+                      "duration": 69051,
+                      "error": {
+                        "message": "Unable to find the coins Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//span[text()=\\'Coins\\'])[3]')\n  locator resolved to visible <span>Coins</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================",
+                        "stack": "Error: Unable to find the coins Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//span[text()=\\'Coins\\'])[3]')\n  locator resolved to visible <span>Coins</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n    at AutomationEXPage.coinsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:747:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:602:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:601:9"
+                      }
+                    }
+                  ],
+                  "startTime": "2024-05-29T09:52:11.285Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-005-Ver-18b74-ducts-chcekout-functionalities-are-working-fine-chromium\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-005-Ver-18b74-ducts-chcekout-functionalities-are-working-fine-chromium\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                    "column": 15,
+                    "line": 747
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3b24793047643fa43483-eb66e816e61964f52b61",
+          "file": "tests/Automation Exercise/AutomationEx.test.ts",
+          "line": 591,
+          "column": 9
+        },
+        {
+          "title": "010 | Verify The duragrip Brand's straps products chcekout functionalities are working fine",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 400000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "failed",
+                  "duration": 67131,
+                  "error": {
+                    "message": "Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================",
+                    "stack": "Error: Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================\n    at AutomationEXPage.strapsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:905:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:751:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:750:9"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 15,
+                        "line": 905
+                      },
+                      "message": "Error: Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:905\n\n\u001b[0m \u001b[90m 903 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 904 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 905 |\u001b[39m         \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the straps Element from the checkout |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 906 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 907 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 908 |\u001b[39m \u001b[36masync\u001b[39m mblstrapsClick() {\u001b[0m\n\n\u001b[2m    at AutomationEXPage.strapsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:905:15)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:751:13\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:750:9\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigate to the Url",
+                      "duration": 2556
+                    },
+                    {
+                      "title": "Click on the brands from the nav bar",
+                      "duration": 553
+                    },
+                    {
+                      "title": "Click on the DuraGrip Sew On product",
+                      "duration": 60042,
+                      "error": {
+                        "message": "Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================",
+                        "stack": "Error: Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================\n    at AutomationEXPage.strapsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:905:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:751:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:750:9"
+                      }
+                    }
+                  ],
+                  "startTime": "2024-05-29T09:53:30.131Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-010-Ver-85e07-ducts-chcekout-functionalities-are-working-fine-chromium\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-010-Ver-85e07-ducts-chcekout-functionalities-are-working-fine-chromium\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                    "column": 15,
+                    "line": 905
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3b24793047643fa43483-26797ecba5ae16b0c454",
+          "file": "tests/Automation Exercise/AutomationEx.test.ts",
+          "line": 740,
+          "column": 9
+        },
+        {
+          "title": "011 | Verify The duragrip Brand's wide loop products chcekout functionalities are working fine",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 400000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "failed",
+                  "duration": 65985,
+                  "error": {
+                    "message": "Unable to find the flame wide loop card Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//img[@class=\\'product-image-photo lazyloaded\\'])[1]')\n  locator resolved to visible <img width=\"240\" height=\"300\" id=\"ODIwOjg4-1\" decodin…/>\nattempting click action\n  waiting for element to be visible, enabled and stable\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================",
+                    "stack": "Error: Unable to find the flame wide loop card Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//img[@class=\\'product-image-photo lazyloaded\\'])[1]')\n  locator resolved to visible <img width=\"240\" height=\"300\" id=\"ODIwOjg4-1\" decodin…/>\nattempting click action\n  waiting for element to be visible, enabled and stable\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n    at AutomationEXPage.flamewideLoopClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:1078:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:895:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:892:9"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 15,
+                        "line": 1078
+                      },
+                      "message": "Error: Unable to find the flame wide loop card Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//img[@class=\\'product-image-photo lazyloaded\\'])[1]')\n  locator resolved to visible <img width=\"240\" height=\"300\" id=\"ODIwOjg4-1\" decodin…/>\nattempting click action\n  waiting for element to be visible, enabled and stable\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:1078\n\n\u001b[0m \u001b[90m 1076 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 1077 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1078 |\u001b[39m         \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the flame wide loop card Element from the PDP |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m      |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 1079 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 1080 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 1081 |\u001b[39m\u001b[0m\n\n\u001b[2m    at AutomationEXPage.flamewideLoopClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:1078:15)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:895:13\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:892:9\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigate to the Url",
+                      "duration": 2666
+                    },
+                    {
+                      "title": "Click on the brands from the nav bar",
+                      "duration": 549
+                    },
+                    {
+                      "title": "Click on the DuraGrip wide loop product",
+                      "duration": 60136,
+                      "error": {
+                        "message": "Unable to find the flame wide loop card Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//img[@class=\\'product-image-photo lazyloaded\\'])[1]')\n  locator resolved to visible <img width=\"240\" height=\"300\" id=\"ODIwOjg4-1\" decodin…/>\nattempting click action\n  waiting for element to be visible, enabled and stable\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================",
+                        "stack": "Error: Unable to find the flame wide loop card Element from the PDP |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=(//img[@class=\\'product-image-photo lazyloaded\\'])[1]')\n  locator resolved to visible <img width=\"240\" height=\"300\" id=\"ODIwOjg4-1\" decodin…/>\nattempting click action\n  waiting for element to be visible, enabled and stable\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  performing click action\n  click action done\n  waiting for scheduled navigations to finish\n============================================================\n    at AutomationEXPage.flamewideLoopClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:1078:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:895:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:892:9"
+                      }
+                    }
+                  ],
+                  "startTime": "2024-05-29T09:54:38.478Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-011-Ver-aa640-ducts-chcekout-functionalities-are-working-fine-chromium\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-011-Ver-aa640-ducts-chcekout-functionalities-are-working-fine-chromium\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                    "column": 15,
+                    "line": 1078
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3b24793047643fa43483-c872d2c23b711d262072",
+          "file": "tests/Automation Exercise/AutomationEx.test.ts",
+          "line": 882,
+          "column": 9
+        }
+      ],
+      "suites": [
+        {
+          "title": "Mobile Viewport Tests",
+          "file": "tests/Automation Exercise/AutomationEx.test.ts",
+          "line": 1018,
+          "column": 10,
+          "specs": [
+            {
+              "title": "006 | Verify The duragrip Brand's Coin products chcekout functionalities are working fineon mobile",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "failed",
+                      "duration": 251937,
+                      "error": {
+                        "message": "Unable to find the Next button Element from the Shipping deatils page |  Error occured: Error: locator.click: Element is not visible\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Next\\']')\n  locator resolved to hidden <span wz-last-el-ref=\"true\" data-bind=\"i18n: 'Next'\">Next</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n============================================================",
+                        "stack": "Error: Unable to find the Next button Element from the Shipping deatils page |  Error occured: Error: locator.click: Element is not visible\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Next\\']')\n  locator resolved to hidden <span wz-last-el-ref=\"true\" data-bind=\"i18n: 'Next'\">Next</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n============================================================\n    at AutomationEXPage.NextBTN_Click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:454:19)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1131:17\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1129:13"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                            "column": 19,
+                            "line": 454
+                          },
+                          "message": "Error: Unable to find the Next button Element from the Shipping deatils page |  Error occured: Error: locator.click: Element is not visible\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Next\\']')\n  locator resolved to hidden <span wz-last-el-ref=\"true\" data-bind=\"i18n: 'Next'\">Next</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:454\n\n\u001b[0m \u001b[90m 452 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 453 |\u001b[39m         } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 454 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the Next button Element from the Shipping deatils page |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 455 |\u001b[39m         }\u001b[0m\n\u001b[0m \u001b[90m 456 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 457 |\u001b[39m    \u001b[0m\n\n\u001b[2m    at AutomationEXPage.NextBTN_Click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:454:19)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1131:17\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1129:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "in wait!!!\n"
+                        },
+                        {
+                          "text": "jQuery is loaded and ready to use.\n"
+                        },
+                        {
+                          "text": "domcontentloaded!!!\n"
+                        },
+                        {
+                          "text": "in wait!!!\n"
+                        },
+                        {
+                          "text": "jQuery is loaded and ready to use.\n"
+                        },
+                        {
+                          "text": "domcontentloaded!!!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to the Url",
+                          "duration": 5216
+                        },
+                        {
+                          "title": "Click on the menu bar",
+                          "duration": 24918
+                        },
+                        {
+                          "title": "Click on the brands from the nav bar",
+                          "duration": 12400
+                        },
+                        {
+                          "title": "Click on the DuraGrip Sew On product",
+                          "duration": 7990
+                        },
+                        {
+                          "title": "Click on the Width option of the product",
+                          "duration": 17125
+                        },
+                        {
+                          "title": "Click on the color option of the product",
+                          "duration": 15234
+                        },
+                        {
+                          "title": "Click on the Both(Hook&Loop) option of the product",
+                          "duration": 15270
+                        },
+                        {
+                          "title": "Click on the Add to cart button",
+                          "duration": 3638
+                        },
+                        {
+                          "title": "Click on the Checkout button",
+                          "duration": 28508
+                        },
+                        {
+                          "title": "Fill the email input field",
+                          "duration": 16441
+                        },
+                        {
+                          "title": "Fill the First Name input field",
+                          "duration": 9190
+                        },
+                        {
+                          "title": "Fill the Last Name input field",
+                          "duration": 9207
+                        },
+                        {
+                          "title": "Fill the Address input field",
+                          "duration": 9225
+                        },
+                        {
+                          "title": "Select the Country",
+                          "duration": 3044
+                        },
+                        {
+                          "title": "Select the state",
+                          "duration": 3022
+                        },
+                        {
+                          "title": "Fill the city input field",
+                          "duration": 12217
+                        },
+                        {
+                          "title": "Fill the Zip input field",
+                          "duration": 12227
+                        },
+                        {
+                          "title": "Fill the phone input field",
+                          "duration": 12222
+                        },
+                        {
+                          "title": "Priority Mall Click",
+                          "duration": 12733
+                        },
+                        {
+                          "title": "Next Button Click",
+                          "duration": 12263
+                        },
+                        {
+                          "title": "Next Button Click",
+                          "duration": 9070,
+                          "error": {
+                            "message": "Unable to find the Next button Element from the Shipping deatils page |  Error occured: Error: locator.click: Element is not visible\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Next\\']')\n  locator resolved to hidden <span wz-last-el-ref=\"true\" data-bind=\"i18n: 'Next'\">Next</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n============================================================",
+                            "stack": "Error: Unable to find the Next button Element from the Shipping deatils page |  Error occured: Error: locator.click: Element is not visible\n=========================== logs ===========================\nwaiting for locator('xpath=//span[text()=\\'Next\\']')\n  locator resolved to hidden <span wz-last-el-ref=\"true\" data-bind=\"i18n: 'Next'\">Next</span>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    forcing action\n  element is visible, enabled and stable\n  scrolling into view if needed\n============================================================\n    at AutomationEXPage.NextBTN_Click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:454:19)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1131:17\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1129:13"
+                          }
+                        }
+                      ],
+                      "startTime": "2024-05-29T09:55:45.659Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--b8b4f-ekout-functionalities-are-working-fineon-mobile-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--b8b4f-ekout-functionalities-are-working-fineon-mobile-chromium\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 19,
+                        "line": 454
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3b24793047643fa43483-675dc9534969deaab051",
+              "file": "tests/Automation Exercise/AutomationEx.test.ts",
+              "line": 1019,
+              "column": 13
+            },
+            {
+              "title": "007 | Verify The velcro Brand's sewon products chcekout functionalities are working fineon mobile",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "failed",
+                      "duration": 108897,
+                      "error": {
+                        "message": "Unable to find the velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/hook-and-loop-brands/velcro/sew-on\\']')\n============================================================",
+                        "stack": "Error: Unable to find the velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/hook-and-loop-brands/velcro/sew-on\\']')\n============================================================\n    at AutomationEXPage.MblvelcroSewonClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:827:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1193:17\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1192:13"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                            "column": 15,
+                            "line": 827
+                          },
+                          "message": "Error: Unable to find the velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/hook-and-loop-brands/velcro/sew-on\\']')\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:827\n\n\u001b[0m \u001b[90m 825 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 826 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 827 |\u001b[39m         \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the velcro sew on Element from the checkout |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 828 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 829 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 830 |\u001b[39m \u001b[36masync\u001b[39m \u001b[33mMblduraSewonClick\u001b[39m() {\u001b[0m\n\n\u001b[2m    at AutomationEXPage.MblvelcroSewonClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:827:15)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1193:17\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1192:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to the Url",
+                          "duration": 2494
+                        },
+                        {
+                          "title": "Click on the menu bar",
+                          "duration": 24842
+                        },
+                        {
+                          "title": "Click on the brands from the nav bar",
+                          "duration": 12410
+                        },
+                        {
+                          "title": "Click on the DuraGrip Sew On product",
+                          "duration": 66045,
+                          "error": {
+                            "message": "Unable to find the velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/hook-and-loop-brands/velcro/sew-on\\']')\n============================================================",
+                            "stack": "Error: Unable to find the velcro sew on Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/hook-and-loop-brands/velcro/sew-on\\']')\n============================================================\n    at AutomationEXPage.MblvelcroSewonClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:827:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1193:17\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1192:13"
+                          }
+                        }
+                      ],
+                      "startTime": "2024-05-29T09:59:58.778Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--4b66d-ekout-functionalities-are-working-fineon-mobile-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--4b66d-ekout-functionalities-are-working-fineon-mobile-chromium\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 15,
+                        "line": 827
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3b24793047643fa43483-562356d14a010954c984",
+              "file": "tests/Automation Exercise/AutomationEx.test.ts",
+              "line": 1175,
+              "column": 9
+            },
+            {
+              "title": "008 | Verify The DuraGrip Brand's Sew on products chcekout functionalities are working fine on mobile",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "failed",
+                      "duration": 170090,
+                      "error": {
+                        "message": "Unable to find the Width Element from the PDP |  Error occured: TimeoutError: page.waitForSelector: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//div[@aria-label=\\'6\\']') to be visible\n============================================================",
+                        "stack": "Error: Unable to find the Width Element from the PDP |  Error occured: TimeoutError: page.waitForSelector: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//div[@aria-label=\\'6\\']') to be visible\n============================================================\n    at AutomationEXPage.Width_click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:164:19)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1360:17\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1358:13"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                            "column": 19,
+                            "line": 164
+                          },
+                          "message": "Error: Unable to find the Width Element from the PDP |  Error occured: TimeoutError: page.waitForSelector: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//div[@aria-label=\\'6\\']') to be visible\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:164\n\n\u001b[0m \u001b[90m 162 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 163 |\u001b[39m         } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 164 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the Width Element from the PDP |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 165 |\u001b[39m         }\u001b[0m\n\u001b[0m \u001b[90m 166 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 167 |\u001b[39m     \u001b[36masync\u001b[39m \u001b[33mBlackClr_click\u001b[39m() {\u001b[0m\n\n\u001b[2m    at AutomationEXPage.Width_click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:164:19)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1360:17\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1358:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to the Url",
+                          "duration": 2485
+                        },
+                        {
+                          "title": "Click on the menu bar",
+                          "duration": 24792
+                        },
+                        {
+                          "title": "Click on the brands from the nav bar",
+                          "duration": 12636
+                        },
+                        {
+                          "title": "Click on the DuraGrip Sew On product",
+                          "duration": 63611
+                        },
+                        {
+                          "title": "Click on the Width option of the product",
+                          "duration": 63015,
+                          "error": {
+                            "message": "Unable to find the Width Element from the PDP |  Error occured: TimeoutError: page.waitForSelector: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//div[@aria-label=\\'6\\']') to be visible\n============================================================",
+                            "stack": "Error: Unable to find the Width Element from the PDP |  Error occured: TimeoutError: page.waitForSelector: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//div[@aria-label=\\'6\\']') to be visible\n============================================================\n    at AutomationEXPage.Width_click (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:164:19)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1360:17\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1358:13"
+                          }
+                        }
+                      ],
+                      "startTime": "2024-05-29T10:01:48.800Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--89a33-kout-functionalities-are-working-fine-on-mobile-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--89a33-kout-functionalities-are-working-fine-on-mobile-chromium\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 19,
+                        "line": 164
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3b24793047643fa43483-fa041c782ff5866286f2",
+              "file": "tests/Automation Exercise/AutomationEx.test.ts",
+              "line": 1335,
+              "column": 13
+            },
+            {
+              "title": "009 | Verify The duragrip Brand's peal and steal products chcekout functionalities are working fine",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "timedOut",
+                      "duration": 400014,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 400000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 400000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                            "column": 16,
+                            "line": 866
+                          },
+                          "message": "page.evaluate: Target closed\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:866\n\n\u001b[0m \u001b[90m 864 |\u001b[39m \u001b[36masync\u001b[39m scrollPage(page\u001b[33m:\u001b[39m \u001b[33mPage\u001b[39m\u001b[33m,\u001b[39m direction\u001b[33m:\u001b[39m \u001b[32m'down'\u001b[39m \u001b[33m|\u001b[39m \u001b[32m'up'\u001b[39m) {\u001b[0m\n\u001b[0m \u001b[90m 865 |\u001b[39m     \u001b[36mconst\u001b[39m distance \u001b[33m=\u001b[39m direction \u001b[33m===\u001b[39m \u001b[32m'down'\u001b[39m \u001b[33m?\u001b[39m \u001b[35m100\u001b[39m \u001b[33m:\u001b[39m \u001b[33m-\u001b[39m\u001b[35m100\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 866 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate(\u001b[36masync\u001b[39m (distance) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 867 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m((resolve\u001b[33m,\u001b[39m reject) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 868 |\u001b[39m         \u001b[36mconst\u001b[39m scrollInterval \u001b[33m=\u001b[39m setInterval(() \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 869 |\u001b[39m           \u001b[36mconst\u001b[39m currentY \u001b[33m=\u001b[39m window\u001b[33m.\u001b[39mscrollY\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at AutomationEXPage.scrollPage (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:866:16)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1512:40\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1510:13\u001b[22m"
+                        },
+                        {
+                          "message": "Pending operations:\n  - page.evaluate at pages\\AutomationExPage\\HookAndloop.page.ts:866:16\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to the Url",
+                          "duration": 21626
+                        },
+                        {
+                          "title": "Click on the menu bar",
+                          "duration": 24775
+                        },
+                        {
+                          "title": "Click on the brands from the nav bar",
+                          "duration": 12451
+                        },
+                        {
+                          "title": "Click on the DuraGrip Sew On product",
+                          "duration": 44509
+                        },
+                        {
+                          "title": "Click on the Width option of the product",
+                          "duration": 296612,
+                          "error": {
+                            "message": "page.evaluate: Target closed",
+                            "stack": "page.evaluate: Target closed\n    at AutomationEXPage.scrollPage (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:866:16)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1512:40\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1510:13"
+                          }
+                        }
+                      ],
+                      "startTime": "2024-05-29T10:04:40.032Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--a5630-ducts-chcekout-functionalities-are-working-fine-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--a5630-ducts-chcekout-functionalities-are-working-fine-chromium\\test-failed-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3b24793047643fa43483-bebba754589c71068057",
+              "file": "tests/Automation Exercise/AutomationEx.test.ts",
+              "line": 1491,
+              "column": 13
+            },
+            {
+              "title": "012 | Verify The duragrip Brand's straps products chcekout functionalities are working fine on mobile",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "status": "failed",
+                      "duration": 133567,
+                      "error": {
+                        "message": "Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================",
+                        "stack": "Error: Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================\n    at AutomationEXPage.strapsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:905:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1668:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1666:9"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                            "column": 15,
+                            "line": 905
+                          },
+                          "message": "Error: Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================\n\n\u001b[90m   at \u001b[39mpages\\AutomationExPage\\HookAndloop.page.ts:905\n\n\u001b[0m \u001b[90m 903 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 904 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 905 |\u001b[39m         \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Unable to find the straps Element from the checkout |  Error occured: '\u001b[39m \u001b[33m+\u001b[39m error)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 906 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 907 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 908 |\u001b[39m \u001b[36masync\u001b[39m mblstrapsClick() {\u001b[0m\n\n\u001b[2m    at AutomationEXPage.strapsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:905:15)\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1668:13\u001b[22m\n\u001b[2m    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1666:9\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to the Url",
+                          "duration": 22248
+                        },
+                        {
+                          "title": "Click on the menu bar",
+                          "duration": 24842
+                        },
+                        {
+                          "title": "Click on the brands from the nav bar",
+                          "duration": 12436
+                        },
+                        {
+                          "title": "Click on the DuraGrip Sew On product",
+                          "duration": 70486,
+                          "error": {
+                            "message": "Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================",
+                            "stack": "Error: Unable to find the straps Element from the checkout |  Error occured: TimeoutError: locator.click: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('xpath=//a[@href=\\'https://dev2.hookandloop.com/customize-hook-and-loop-strap/\\']').first()\n============================================================\n    at AutomationEXPage.strapsClick (C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts:905:15)\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1668:13\n    at C:\\Users\\munna\\Desktop\\hookandloopLive\\tests\\Automation Exercise\\AutomationEx.test.ts:1666:9"
+                          }
+                        }
+                      ],
+                      "startTime": "2024-05-29T10:11:33.902Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--d03dd-kout-functionalities-are-working-fine-on-mobile-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\munna\\Desktop\\hookandloopLive\\test-results\\tests-Automation Exercise-AutomationEx-Mobile--d03dd-kout-functionalities-are-working-fine-on-mobile-chromium\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\munna\\Desktop\\hookandloopLive\\pages\\AutomationExPage\\HookAndloop.page.ts",
+                        "column": 15,
+                        "line": 905
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3b24793047643fa43483-b17371d66798fbfc2589",
+              "file": "tests/Automation Exercise/AutomationEx.test.ts",
+              "line": 1648,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
