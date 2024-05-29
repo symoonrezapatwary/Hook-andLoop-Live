@@ -150,6 +150,9 @@ test("001 | Verify The DuraGrip Brand's Sew on products chcekout functionalities
 
     })
 
+
+
+    
 test("002 | Verify The velcro Brand's Sew on products chcekout functionalities are working fine", async ({ page, AutomationExPage }) => {
         await test.step('Navigate to the Url', async () => {
             await page.goto('https://hookandloop.com/')
